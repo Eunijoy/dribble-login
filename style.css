@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ebeef3;
+}
+
+.container{
+    width: 900px;
+    height: 600px;
+    background: url('./img/bg.png')no-repeat;
+    background-size: cover;
+    margin: 10px 0 0 200px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px 0 0 30px;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+a{
+    text-decoration: none;
+    color: lightslategray;
+}
+
+.circle-logo{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100%;
+    position: relative;
+    left: 25px;
+    vertical-align: top;
+}
+
+.text-logo a{
+    padding-right: 60px;
+    color: #000;
+}
+
+form{
+    width: 500px;
+    margin: 100px 0 0 50px;
+}
+
+h1{
+    color: lightslategray;
+    font-size: 1rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+p{
+    color: lightslategrey;
+    padding: 10px;
+}
+
+.login a{
+    color: skyblue;
+}
+
+input[type="text"]{
+    height: 40px;
+    background-color: #ebeef3;
+    border-radius: 10px;
+    margin: 10px;
+    border-color: #ebeef3;
+}
+
+input[type="email"],input[type="password"]{
+    width: 365px;
+    height: 40px;
+    background-color: #ebeef3;
+    border-color: #ebeef3;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+input[type="email"],input[type="password"],input[type="text"]:hover{
+    border-color: skyblue;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    border-radius: 50px;
+    border-color: transparent;
+    width: 150px;
+}
+
+#change{
+    background-color: #ebeef3;
+}
+
+#create{
+    background-color: skyblue;
+    color: #fff;
+    margin-left: 75px;
+}
